@@ -1,0 +1,3 @@
+<label>Input parent: <input type="text" [(ngModel)]="demo"></label>
+<h1>H1 parent: {{test}}</h1>
+<app-child string="{{demo}}" (newItemEvent)="addItem($event)"></app-child>
